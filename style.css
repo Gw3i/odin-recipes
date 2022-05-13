@@ -6,9 +6,18 @@
 .main-img {
     width: 700px;
     height: auto;
-
+    margin: 0 auto;
 }
 
 .content {
     background-color: blanchedalmond
+}
+
+.recipes-list li {
+    display: inline;
+}
+
+.recipes img {
+    width: 250px;
+    height: auto;
 }
