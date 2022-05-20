@@ -44,11 +44,14 @@ a {
     color: black;
 }
 
-
 .main-img {
     width: 700px;
     height: auto;
     margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 18px;
 }
 
 .recipe-img {
@@ -59,7 +62,7 @@ a {
 
 .recipes-list {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 0;
     padding: 0;
     justify-content: center;
