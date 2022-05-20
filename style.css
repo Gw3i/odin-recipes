@@ -17,19 +17,44 @@ a {
 
 .top {
     text-align: center;
+    font-size: 48px;
 }
+
+.main {
+    margin: 0 auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: black;
+    color: rgb(250, 249, 247);
+}
+
+.main-button:hover {
+    background-color: rgb(218, 209, 189);
+    color: black;
+}
+
 
 .main-img {
     width: 700px;
     height: auto;
-    margin: 0 auto 100px auto;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .recipe-img {
     width: 250px;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
 }
 
 .recipes-list {
@@ -47,15 +72,19 @@ a {
     align-items: center;
 }
 
-.recipes a {
+.recipes-link {
     margin-bottom: 20px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 16px;
+}
+
+.recipes p {
+    font-style: italic;
+    margin: 0;
 }
 
 
-
-/* LASAGNE */
+/* RECIPE PAGES */
 
 .head-section {
     margin: 20px 20px 100px 20px;
@@ -67,7 +96,7 @@ a {
 }
 
 .head-section h1 {
-    font-size: 90px;
+    font-size: 68px;
     font-weight: bold;
     margin: 0;
 }
